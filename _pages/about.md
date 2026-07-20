@@ -16,6 +16,16 @@ My research focuses on natural language processing and machine learning, with pa
 - **Hallucination in Vision-Language Models (VLM)**
 - **LLM Truthfulness and Interpretability**
 
+Publications
+======
+A full list of my publications is available on the [Publications page]({{ site.baseurl }}/publications/). Selected works (most recent first):
+
+{% assign sorted_pubs = site.publications | sort: "date" | reverse %}
+{% for pub in sorted_pubs %}
+- **{{ pub.date | date: "%Y" }}** — {{ pub.title }} (*{{ pub.venue }}*)  
+  [Details]({{ site.baseurl }}{{ pub.url }})
+{% endfor %}
+
 Education
 ======
 - **Ph.D. in Computer Science**, Hong Kong University of Science and Technology (2024 - Present)
