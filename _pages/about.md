@@ -18,13 +18,12 @@ My research focuses on natural language processing and machine learning, with pa
 
 Publications
 ======
-A full list of my publications is available on the [Publications page]({{ site.baseurl }}/publications/). Selected works (most recent first):
-
-{% assign sorted_pubs = site.publications | sort: "date" | reverse %}
-{% for pub in sorted_pubs %}
-- **{{ pub.date | date: "%Y" }}** — {{ pub.title }} (*{{ pub.venue }}*)  
-  [Details]({{ site.baseurl }}{{ pub.url }})
-{% endfor %}
+- SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond (Arxiv, 2025) — First author
+- On the Perception Bottleneck of VLMs for Chart Understanding (Arxiv, 2025) — First author
+- On the Universal Truthfulness Hyperplane Inside LLMs (EMNLP 2024) — First author
+- In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation (ICML 2024)
+- C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models (NeurIPS 2023)
+- Composing Parameter-Efficient Modules with Arithmetic Operations (NeurIPS 2023)
 
 Education
 ======
